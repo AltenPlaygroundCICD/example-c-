@@ -22,10 +22,10 @@ TEST_F(PlantWatererTest, TestCorrectNameIsSet)
     PlantWaterer pw{};
 
     //act
-    pw.setName("HydroMaatje");
+    pw.setName("HydroMaat");
 
     //assert
-    ASSERT_EQ(pw.getName(), "Rioolwaterzuiveringsinstallatie");
+    ASSERT_EQ(pw.getName(), "HydroMaat");
 
     //cleanup
 }
